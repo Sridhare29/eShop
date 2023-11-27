@@ -16,6 +16,8 @@
 
 .header_logoImage {
     margin-right: 10px;
+    color: beige;
+
 }
 
 .header_logotitle {
@@ -30,7 +32,7 @@
 
 .header_searchTitle {
     width: 100%;
-    padding: 8px;
+    padding: 10px;
     border: none;
     border-radius: 4px;
     margin-right: 10px;
@@ -38,6 +40,8 @@
 
 .header_SearchIcon {
     cursor: pointer;
+    color: #ff9f00;
+    margin-right: 10px;
 }
 
 

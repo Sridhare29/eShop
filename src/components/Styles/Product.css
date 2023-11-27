@@ -1,0 +1,53 @@
+
+.product {
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Add border-radius for a rounded corner effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box-shadow for a subtle elevation */
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product_info {
+    margin-bottom: 10px;
+}
+
+.product_info p {
+    margin: 0;
+}
+
+.product_price {
+    font-weight: bold;
+}
+
+.product_rating {
+    color: #FFD700; /* Gold color for stars */
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px; /* Add border-radius for rounded image corners */
+}
+
+.product_btn {
+    background-color: #f0c14b; /* Amazon's add-to-cart button color */
+    border: 1px solid #a88734; /* Border color for consistency */
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 4px; 
+}
+
